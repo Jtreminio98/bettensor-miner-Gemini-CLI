@@ -1,0 +1,17 @@
+# Minimal requirements for running the data extractor without a full validator setup.
+
+# Core data and async libraries
+numpy
+pandas
+aiosqlite
+sqlalchemy
+async-timeout
+
+# Machine learning library required by the config
+torch
+
+# Utility libraries
+python-dotenv
+scikit-learn
+scipy
+loguru

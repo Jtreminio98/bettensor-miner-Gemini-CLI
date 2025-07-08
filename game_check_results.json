@@ -1,0 +1,312 @@
+{
+  "game_check_results": {
+    "found_games": [],
+    "missing_games": [
+      "40274430",
+      "40274431",
+      "40274432",
+      "40274433",
+      "40274434",
+      "40274435",
+      "40274436",
+      "40274437",
+      "40274438",
+      "40274439",
+      "40274440",
+      "40274441",
+      "40274442",
+      "40274443",
+      "40274444"
+    ],
+    "games_with_predictions": [],
+    "total_games_checked": 0
+  },
+  "endpoint_results": {
+    "working_endpoints": [
+      {
+        "endpoint": "/Games/TeamGames/Search",
+        "status": 200,
+        "data_length": 10,
+        "sample_data": [
+          {
+            "id": 315737,
+            "sport": "Football",
+            "date": "2025-12-26T01:15:00",
+            "teamA": "DEN Broncos",
+            "teamB": "KC Chiefs",
+            "league": "NFL Look Ahead Matches",
+            "eventDescription": "NFL Look Ahead Matches",
+            "outcome": null,
+            "stats": {
+              "teamAWinPredictionCount": 0,
+              "teamBWinPredictionCount": 0,
+              "drawPredictionCount": 0,
+              "totalPredictionCount": 0,
+              "teamAPredictionPercent": null,
+              "teamBPredictionPercent": null,
+              "drawPredictionPercent": null,
+              "winningPredictionCount": null,
+              "losingPredictionCount": null,
+              "winningPredictionPercent": null,
+              "losingPredictionPercent": null
+            },
+            "predictions": null,
+            "oddsHistory": null,
+            "teamAOdds": 2.75,
+            "teamBOdds": 1.47,
+            "drawOdds": 0,
+            "teamAOddsPercent": 36.36363636363637,
+            "teamBOddsPercent": 68.02721088435374,
+            "drawOddsPercent": 0,
+            "canDraw": false,
+            "externalId": "174608291",
+            "extendedData": null
+          },
+          {
+            "id": 316677,
+            "sport": "Football",
+            "date": "2025-12-25T21:30:00",
+            "teamA": "DET Lions",
+            "teamB": "MIN Vikings",
+            "league": "NFL Look Ahead Matches",
+            "eventDescription": "NFL Look Ahead Matches",
+            "outcome": null,
+            "stats": {
+              "teamAWinPredictionCount": 0,
+              "teamBWinPredictionCount": 0,
+              "drawPredictionCount": 0,
+              "totalPredictionCount": 0,
+              "teamAPredictionPercent": null,
+              "teamBPredictionPercent": null,
+              "drawPredictionPercent": null,
+              "winningPredictionCount": null,
+              "losingPredictionCount": null,
+              "winningPredictionPercent": null,
+              "losingPredictionPercent": null
+            },
+            "predictions": null,
+            "oddsHistory": null,
+            "teamAOdds": 1.66,
+            "teamBOdds": 2.25,
+            "drawOdds": 0,
+            "teamAOddsPercent": 60.24096385542169,
+            "teamBOddsPercent": 44.44444444444444,
+            "drawOddsPercent": 0,
+            "canDraw": false,
+            "externalId": "174688516",
+            "extendedData": null
+          }
+        ]
+      }
+    ],
+    "error_endpoints": [
+      {
+        "endpoint": "/Games/TeamGames/GetTrendingGames",
+        "status": 400
+      },
+      {
+        "endpoint": "/Games/TeamGames/GetHotGames",
+        "status": 400
+      },
+      {
+        "endpoint": "/Games/TeamGames/GetPopularGames",
+        "status": 400
+      },
+      {
+        "endpoint": "/Games/TeamGames/GetMostPredicted",
+        "status": 400
+      },
+      {
+        "endpoint": "/Games/TeamGames/GetActiveGames",
+        "status": 400
+      },
+      {
+        "endpoint": "/Games/TeamGames/GetLiveGames",
+        "status": 400
+      },
+      {
+        "endpoint": "/Games/TeamGames/GetUpcomingGames",
+        "status": 400
+      },
+      {
+        "endpoint": "/Games/TeamGames/GetRecentGames",
+        "status": 400
+      },
+      {
+        "endpoint": "/Games/TeamGames/GetFeaturedGames",
+        "status": 400
+      },
+      {
+        "endpoint": "/Games/TeamGames/GetTopGames",
+        "status": 400
+      },
+      {
+        "endpoint": "/Games/TeamGames/GetGamesByPredictionCount",
+        "status": 400
+      },
+      {
+        "endpoint": "/Games/TeamGames/GetGameStats",
+        "status": 400
+      },
+      {
+        "endpoint": "/Games/TeamGames/GetGamePredictions",
+        "status": 400
+      },
+      {
+        "endpoint": "/Games/TeamGames/GetGamesByPopularity",
+        "status": 400
+      },
+      {
+        "endpoint": "/Games/TeamGames/GetGamesByActivity",
+        "status": 400
+      },
+      {
+        "endpoint": "/Games/GetTrendingGames",
+        "status": 404
+      },
+      {
+        "endpoint": "/Games/GetHotGames",
+        "status": 404
+      },
+      {
+        "endpoint": "/Games/GetPopularGames",
+        "status": 404
+      },
+      {
+        "endpoint": "/Games/GetMostPredicted",
+        "status": 404
+      },
+      {
+        "endpoint": "/Games/GetActiveGames",
+        "status": 404
+      },
+      {
+        "endpoint": "/Games/GetLiveGames",
+        "status": 404
+      },
+      {
+        "endpoint": "/Games/GetUpcomingGames",
+        "status": 404
+      },
+      {
+        "endpoint": "/Games/GetRecentGames",
+        "status": 404
+      },
+      {
+        "endpoint": "/Games/GetFeaturedGames",
+        "status": 404
+      },
+      {
+        "endpoint": "/Games/GetTopGames",
+        "status": 404
+      },
+      {
+        "endpoint": "/Games/GetGamesByPredictionCount",
+        "status": 404
+      },
+      {
+        "endpoint": "/Games/GetGameStats",
+        "status": 404
+      },
+      {
+        "endpoint": "/Games/GetGamePredictions",
+        "status": 404
+      },
+      {
+        "endpoint": "/Games/GetGamesByPopularity",
+        "status": 404
+      },
+      {
+        "endpoint": "/Games/GetGamesByActivity",
+        "status": 404
+      },
+      {
+        "endpoint": "/Predictions/GetTrendingPredictions",
+        "status": 404
+      },
+      {
+        "endpoint": "/Predictions/GetHotPredictions",
+        "status": 404
+      },
+      {
+        "endpoint": "/Predictions/GetPopularPredictions",
+        "status": 404
+      },
+      {
+        "endpoint": "/Predictions/GetMostActivePredictions",
+        "status": 404
+      },
+      {
+        "endpoint": "/Predictions/GetRecentPredictions",
+        "status": 404
+      },
+      {
+        "endpoint": "/Predictions/GetFeaturedPredictions",
+        "status": 404
+      },
+      {
+        "endpoint": "/Predictions/GetTopPredictions",
+        "status": 404
+      },
+      {
+        "endpoint": "/Predictions/GetPredictionsByGameId",
+        "status": 404
+      },
+      {
+        "endpoint": "/Predictions/GetPredictionsByPopularity",
+        "status": 404
+      },
+      {
+        "endpoint": "/Predictions/GetPredictionsByActivity",
+        "status": 404
+      },
+      {
+        "endpoint": "/Stats/GetTrendingStats",
+        "status": 404
+      },
+      {
+        "endpoint": "/Stats/GetHotStats",
+        "status": 404
+      },
+      {
+        "endpoint": "/Stats/GetPopularStats",
+        "status": 404
+      },
+      {
+        "endpoint": "/Stats/GetMostActiveStats",
+        "status": 404
+      },
+      {
+        "endpoint": "/Stats/GetRecentStats",
+        "status": 404
+      },
+      {
+        "endpoint": "/Stats/GetFeaturedStats",
+        "status": 404
+      },
+      {
+        "endpoint": "/Stats/GetTopStats",
+        "status": 404
+      },
+      {
+        "endpoint": "/Stats/GetStatsByGameId",
+        "status": 404
+      },
+      {
+        "endpoint": "/Stats/GetStatsByPopularity",
+        "status": 404
+      },
+      {
+        "endpoint": "/Stats/GetStatsByActivity",
+        "status": 404
+      }
+    ],
+    "rate_limited_endpoints": [],
+    "promising_endpoints": []
+  },
+  "prediction_results": {
+    "games_with_prediction_data": [],
+    "games_without_prediction_data": [],
+    "errors": []
+  }
+}

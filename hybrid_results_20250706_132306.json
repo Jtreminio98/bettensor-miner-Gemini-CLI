@@ -1,0 +1,99 @@
+{
+  "timestamp": "2025-07-06T13:17:50.764012",
+  "source": "hybrid_extraction",
+  "discovered_games": [],
+  "manual_games": [
+    {
+      "game_id": "d5c8f2e1-3b9a-4567-8901-234567890123",
+      "team_a": "Unknown Team A",
+      "team_b": "Unknown Team B",
+      "prediction_count": 0,
+      "status": "manual_fallback"
+    },
+    {
+      "game_id": "a1b2c3d4-e5f6-7890-1234-567890123456",
+      "team_a": "Unknown Team A",
+      "team_b": "Unknown Team B",
+      "prediction_count": 0,
+      "status": "manual_fallback"
+    }
+  ],
+  "prediction_analysis": {
+    "d5c8f2e1-3b9a-4567-8901-234567890123": {
+      "game_info": {
+        "game_id": "d5c8f2e1-3b9a-4567-8901-234567890123",
+        "team_a": "Unknown Team A",
+        "team_b": "Unknown Team B",
+        "prediction_count": 0,
+        "status": "manual_fallback"
+      },
+      "predictions": [],
+      "analysis": {
+        "total_predictions": 0,
+        "unique_miners": 0,
+        "prediction_distribution": {},
+        "confidence_stats": [],
+        "consensus": null
+      }
+    },
+    "a1b2c3d4-e5f6-7890-1234-567890123456": {
+      "game_info": {
+        "game_id": "a1b2c3d4-e5f6-7890-1234-567890123456",
+        "team_a": "Unknown Team A",
+        "team_b": "Unknown Team B",
+        "prediction_count": 0,
+        "status": "manual_fallback"
+      },
+      "predictions": [],
+      "analysis": {
+        "total_predictions": 0,
+        "unique_miners": 0,
+        "prediction_distribution": {},
+        "confidence_stats": [],
+        "consensus": null
+      }
+    }
+  },
+  "top_games": [
+    {
+      "game_id": "d5c8f2e1-3b9a-4567-8901-234567890123",
+      "game_info": {
+        "game_id": "d5c8f2e1-3b9a-4567-8901-234567890123",
+        "team_a": "Unknown Team A",
+        "team_b": "Unknown Team B",
+        "prediction_count": 0,
+        "status": "manual_fallback"
+      },
+      "analysis": {
+        "total_predictions": 0,
+        "unique_miners": 0,
+        "prediction_distribution": {},
+        "confidence_stats": [],
+        "consensus": null
+      },
+      "score": 0.0
+    },
+    {
+      "game_id": "a1b2c3d4-e5f6-7890-1234-567890123456",
+      "game_info": {
+        "game_id": "a1b2c3d4-e5f6-7890-1234-567890123456",
+        "team_a": "Unknown Team A",
+        "team_b": "Unknown Team B",
+        "prediction_count": 0,
+        "status": "manual_fallback"
+      },
+      "analysis": {
+        "total_predictions": 0,
+        "unique_miners": 0,
+        "prediction_distribution": {},
+        "confidence_stats": [],
+        "consensus": null
+      },
+      "score": 0.0
+    }
+  ],
+  "recommendations": [],
+  "errors": [
+    "\u274c Hybrid extraction failed: 'NoneType' object has no attribute 'get'"
+  ]
+}

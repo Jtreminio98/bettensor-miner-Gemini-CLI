@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-07-06T15:16:27.691915",
+  "miners_queried": 0,
+  "miners_responded": 0,
+  "total_predictions": 0,
+  "predictions_by_game": {},
+  "active_miners": [],
+  "errors": [
+    "\u274c Error querying miners: Validator not initialized. Call init_for_data_extraction() first.",
+    "Database check error: no such column: miner_hotkey"
+  ]
+}
