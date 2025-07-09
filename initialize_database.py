@@ -12,8 +12,11 @@ import os
 import sys
 from pathlib import Path
 
-# Add the bettensor module to path
-sys.path.append(str(Path(__file__).parent))
+# Manually add the project root to the Python path to fix module import issues.
+# This is a robust workaround for environment configuration problems.
+project_root = os.path.abspath(os.path.dirname(__file__))
+if project_root not in sys.path:
+    sys.path.insert(0, project_root)
 
 from bettensor.validator.utils.database.database_init import initialize_database
 

@@ -201,4 +201,5 @@ bettensor/validator/state/*
 
 analyze_invalid_predictions.py
 metagraph.ipynb
-neurons.csv
+neurons.csvvalidator.db-shm
+validator.db-wal

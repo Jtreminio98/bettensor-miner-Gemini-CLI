@@ -84,63 +84,65 @@ async def main():
         print("--- Script entered main function. About to import libraries. ---"); sys.stdout.flush()
         from bettensor.validator.bettensor_validator import BettensorValidator
         from bettensor.validator.utils.scoring.scoring import ScoringSystem
+        from bettensor.validator.utils.database.database_manager import DatabaseManager
+        from bettensor.validator.data_handlers.sports_data import SportsData
 
         print("--- Libraries imported successfully. ---"); sys.stdout.flush()
 
         print("--- Starting Data Extractor ---"); sys.stdout.flush()
 
-        # 1. Initialize Validator with correct subnet
-        print("--- Initializing Validator for data extraction... ---"); sys.stdout.flush()
-        validator = BettensorValidator()
+        # 1. Get the default config and modify it
+        print("--- Getting and modifying validator config... ---"); sys.stdout.flush()
+        config = BettensorValidator.config()
+        config.netuid = 3
+        config.wallet.name = "default"
+        config.wallet.hotkey = "default"
+        config.db_path = os.path.abspath("validator.db")
+        print(f"Using database path: {config.db_path}")
+
+        # 2. Initialize the validator with the modified config
+        print("--- Initializing Validator with modified config... ---"); sys.stdout.flush()
+        validator = BettensorValidator(config=config)
         
-        # Override the default netuid to use subnet 3 (sports betting)
-        validator.config.netuid = 3
-        print(f"Using subnet {validator.config.netuid} (sports betting)")
+        # 3. Manually create and assign the DatabaseManager and SportsData objects
+        print("--- Manually creating and assigning helper objects... ---"); sys.stdout.flush()
+        validator.db_manager = DatabaseManager(config.db_path)
+        await validator.db_manager.initialize()
+        validator.sports_data = SportsData(db_manager=validator.db_manager, config=validator.config)
+
+        # 4. Perform a lightweight initialization sequence for network objects
+        print("--- Performing lightweight validator setup... ---"); sys.stdout.flush()
+        validator.wallet, validator.subtensor, validator.dendrite, validator.metagraph = validator.setup_bittensor_objects(validator.config)
+        validator.uid = validator.metagraph.hotkeys.index(validator.wallet.hotkey.ss58_address)
         
-        await validator.init_for_data_extraction()
-        print("--- Validator initialized. ---"); sys.stdout.flush()
+        # 5. Fetch live game data to populate the database
+        print("\n--- Fetching live game data from the network... ---")
+        try:
+            from neurons.validator import update_game_data
+            current_time = datetime.now(timezone.utc)
+            await update_game_data(validator, current_time, deep_query=True)
+            print("--- Live game data fetched successfully. ---")
+        except Exception as e:
+            print(f"An error occurred while fetching game data: {e}")
+            traceback.print_exc()
+
+        # 6. Initialize the scoring system
+        print("--- Initializing scoring system... ---"); sys.stdout.flush()
+        validator.scoring_system = ScoringSystem(
+            db_manager=validator.db_manager,
+            num_miners=256,
+            max_days=45,
+            current_date=datetime.now(timezone.utc)
+        )
+        await validator.scoring_system.initialize()
+        print("--- Validator fully initialized for data extraction. ---"); sys.stdout.flush()
 
         # 2. Get scoring system from validator (already initialized)
         print("--- Getting scoring system from validator... ---"); sys.stdout.flush()
         scoring_system = validator.scoring_system
         print("--- Scoring system ready. ---"); sys.stdout.flush()
 
-        # 3. Fetch live game data to populate the database
-        print("\n--- Fetching live game data from the network... ---")
-        try:
-            from neurons.validator import update_game_data
-            from datetime import datetime, timezone
-
-            current_time = datetime.now(timezone.utc)
-            print(f"Current time: {current_time}")
-            print(f"Validator sports_data available: {hasattr(validator, 'sports_data')}")
-            if hasattr(validator, 'sports_data'):
-                print(f"Sports data type: {type(validator.sports_data)}")
-            
-            await update_game_data(validator, current_time, deep_query=True)
-            print("--- Live game data fetched successfully. ---")
-            
-            # Check if any game data was actually inserted
-            async with validator.db_manager.get_session() as session:
-                from sqlalchemy import text
-                game_count_result = await session.execute(text("SELECT COUNT(*) FROM game_data"))
-                game_count = game_count_result.scalar_one()
-                print(f"Game data rows after fetch: {game_count}")
-                
-                if game_count > 0:
-                    # Show sample game data
-                    sample_games_result = await session.execute(text("SELECT game_id, team_a, team_b, sport, event_start_date FROM game_data LIMIT 3"))
-                    sample_games = sample_games_result.fetchall()
-                    print("Sample games:")
-                    for game in sample_games:
-                        print(f"  - {game.sport}: {game.team_a} vs {game.team_b} on {game.event_start_date}")
-                        
-        except Exception as e:
-            print(f"An error occurred while fetching game data: {e}")
-            import traceback
-            traceback.print_exc()
-
-        # 4. Query miners for predictions
+        # 8. Query miners for predictions
         print("\n--- Querying miners for predictions... ---")
         try:
             # The forward pass queries miners for predictions on the latest game data.
