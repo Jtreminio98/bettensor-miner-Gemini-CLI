@@ -1,53 +1,182 @@
 [
   {
-    "sport": "Horse Racing",
+    "sport": "Baseball",
+    "league": "MLB",
     "event_details": {
-      "track": "Roscommon",
-      "time": "05:25",
-      "selection": "Neo Smart & Gabriella Hill(10)"
+      "game": "Washington Nationals vs Opponent",
+      "date": "2025-07-23"
     },
-    "bet_type": "Win",
-    "confidence": 0.624,
-    "reasoning": "High win probability, consistent performance, favorable odds."
-  },
-  {
-    "sport": "Tennis",
-    "event_details": {
-      "match": "M. Fucsovics vs Opponent"
-    },
-    "bet_type": "Set Betting",
-    "prediction": "M. Fucsovics 2-0",
-    "reasoning": "Strong form, superior surface stats, opponent struggles in similar conditions."
+    "bet_type": "Spread",
+    "prediction": "Washington Nationals +1.5",
+    "odds": 1.62,
+    "reasoning": "User provided pick."
   },
   {
     "sport": "Baseball",
     "league": "MLB",
     "event_details": {
-      "game": "Philadelphia Phillies vs Opponent"
+      "game": "Miami Marlins vs Opponent",
+      "date": "2025-07-23"
+    },
+    "bet_type": "Spread",
+    "prediction": "Miami Marlins +1.5",
+    "odds": 1.7,
+    "reasoning": "User provided pick."
+  },
+  {
+    "sport": "Baseball",
+    "league": "MLB",
+    "event_details": {
+      "game": "Atlanta Braves vs Opponent",
+      "date": "2025-07-23"
+    },
+    "bet_type": "Spread",
+    "prediction": "Atlanta Braves -1.5",
+    "odds": 2.16,
+    "reasoning": "User provided pick."
+  },
+  {
+    "sport": "Baseball",
+    "league": "MLB",
+    "event_details": {
+      "game": "Pittsburgh Pirates vs Opponent",
+      "date": "2025-07-23"
+    },
+    "bet_type": "Spread",
+    "prediction": "Pittsburgh Pirates +1.5",
+    "odds": 1.73,
+    "reasoning": "User provided pick."
+  },
+  {
+    "sport": "Baseball",
+    "league": "MLB",
+    "event_details": {
+      "game": "New York Mets vs Opponent",
+      "date": "2025-07-23"
+    },
+    "bet_type": "Spread",
+    "prediction": "New York Mets -1.5",
+    "odds": 2.18,
+    "reasoning": "User provided pick."
+  },
+  {
+    "sport": "Baseball",
+    "league": "MLB",
+    "event_details": {
+      "game": "Chicago Cubs vs Opponent",
+      "date": "2025-07-23"
+    },
+    "bet_type": "Spread",
+    "prediction": "Chicago Cubs -1.5",
+    "odds": 2.38,
+    "reasoning": "User provided pick."
+  },
+  {
+    "sport": "Baseball",
+    "league": "MLB",
+    "event_details": {
+      "game": "Colorado Rockies vs Opponent",
+      "date": "2025-07-23"
+    },
+    "bet_type": "Spread",
+    "prediction": "Colorado Rockies +1.5",
+    "odds": 2.05,
+    "reasoning": "User provided pick."
+  },
+  {
+    "sport": "Baseball",
+    "league": "MLB",
+    "event_details": {
+      "game": "Arizona Diamondbacks vs Opponent",
+      "date": "2025-07-23"
+    },
+    "bet_type": "Spread",
+    "prediction": "Arizona Diamondbacks -1.5",
+    "odds": 2.68,
+    "reasoning": "User provided pick."
+  },
+  {
+    "sport": "Baseball",
+    "league": "MLB",
+    "event_details": {
+      "game": "Seattle Mariners vs Opponent",
+      "date": "2025-07-23"
+    },
+    "bet_type": "Spread",
+    "prediction": "Seattle Mariners -1.5",
+    "odds": 2.55,
+    "reasoning": "User provided pick."
+  },
+  {
+    "sport": "Baseball",
+    "league": "MLB",
+    "event_details": {
+      "game": "Los Angeles Dodgers vs Opponent",
+      "date": "2025-07-23"
+    },
+    "bet_type": "Spread",
+    "prediction": "Los Angeles Dodgers -1.5",
+    "odds": 1.9,
+    "reasoning": "User provided pick."
+  },
+  {
+    "sport": "Baseball",
+    "league": "MLB",
+    "event_details": {
+      "game": "Cleveland Guardians vs Opponent",
+      "date": "2025-07-23"
+    },
+    "bet_type": "Spread",
+    "prediction": "Cleveland Guardians -1.5",
+    "odds": 2.64,
+    "reasoning": "User provided pick."
+  },
+  {
+    "sport": "Baseball",
+    "league": "MLB",
+    "event_details": {
+      "game": "Philadelphia Phillies vs Opponent",
+      "date": "2025-07-23"
     },
     "bet_type": "Spread",
     "prediction": "Philadelphia Phillies -1.5",
-    "odds": 2.05,
-    "reasoning": "Solid recent performance, strong pitching matchup, opponent's road struggles."
+    "odds": 2.36,
+    "reasoning": "User provided pick."
   },
   {
-    "sport": "Tennis",
+    "sport": "Baseball",
+    "league": "MLB",
     "event_details": {
-      "match": "L. Sonego vs Opponent"
+      "game": "Toronto Blue Jays vs Opponent",
+      "date": "2025-07-23"
     },
-    "bet_type": "Moneyline",
-    "prediction": "L. Sonego",
-    "reasoning": "Consistent play, favorable head-to-head stats, opponent's recent poor form."
+    "bet_type": "Spread",
+    "prediction": "Toronto Blue Jays +1.5",
+    "odds": 1.7,
+    "reasoning": "User provided pick."
   },
   {
-    "sport": "Horse Racing",
+    "sport": "Baseball",
+    "league": "MLB",
     "event_details": {
-      "track": "Windsor",
-      "time": "05:33",
-      "selection": "Topwarrior & Rossa Ryan"
+      "game": "Tampa Bay Rays vs Opponent",
+      "date": "2025-07-23"
     },
-    "bet_type": "Win",
-    "confidence": 0.306,
-    "reasoning": "Solid jockey-trainer combo, high recent form index, favorable conditions."
+    "bet_type": "Spread",
+    "prediction": "Tampa Bay Rays -1.5",
+    "odds": 1.98,
+    "reasoning": "User provided pick."
+  },
+  {
+    "sport": "Baseball",
+    "league": "MLB",
+    "event_details": {
+      "game": "Texas Rangers vs Opponent",
+      "date": "2025-07-23"
+    },
+    "bet_type": "Spread",
+    "prediction": "Texas Rangers -1.5",
+    "odds": 2.5,
+    "reasoning": "User provided pick."
   }
 ]

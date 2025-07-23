@@ -23,9 +23,8 @@ class MyMiner:
 
         config.wallet.name = "default"
         config.wallet.hotkey = "default"
-        config.netuid = 30  # Bettensor subnet
-        config.subtensor.network = "finney" # or "test" for testnet
-        config.subtensor.chain_endpoint = "wss://bittensor-finney.api.onfinality.io/public-ws"
+        config.netuid = 181  # Bettensor testnet
+        config.subtensor.network = "test"
         config.logging.debug = True # Enable debug logging
         return config
 
