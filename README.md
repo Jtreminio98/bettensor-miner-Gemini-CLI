@@ -199,3 +199,73 @@ Copyright © 2024 Bettensor (oneandahalfcats, geardici, honeybadgerhavoc)
 
 ![Bettensor Logo](./docs/assets/bettensor_spin_animation.gif) 
 </div>
+
+## Custom Miner for Manual Predictions
+
+This repository includes a custom miner script, `my_miner.py`, designed for users who want to manually input their own predictions. This is ideal for those who prefer to use their own analysis rather than relying on the default prediction models.
+
+### How It Works
+
+The custom miner operates in a simple loop:
+
+1.  **Reads Picks:** The miner reads a list of predictions from the `my_picks.json` file.
+2.  **Listens for Requests:** It connects to the Bittensor network and listens for requests from validators.
+3.  **Serves Predictions:** When a validator queries the miner, it responds with the first prediction from the `my_picks.json` file.
+
+### `my_picks.json` File
+
+The `my_picks.json` file is where you store your predictions. It's a simple JSON array of objects, where each object represents a single pick. The structure is flexible to accommodate various types of bets.
+
+**Example:**
+
+```json
+[
+  {
+    "sport": "Horse Racing",
+    "event_details": {
+      "track": "Roscommon",
+      "time": "05:25",
+      "selection": "Neo Smart & Gabriella Hill(10)"
+    },
+    "bet_type": "Win",
+    "confidence": 0.624,
+    "reasoning": "High win probability, consistent performance, favorable odds."
+  },
+  {
+    "sport": "Baseball",
+    "league": "MLB",
+    "event_details": {
+      "game": "Philadelphia Phillies vs Opponent"
+    },
+    "bet_type": "Spread",
+    "prediction": "Philadelphia Phillies -1.5",
+    "odds": 2.05,
+    "reasoning": "Solid recent performance, strong pitching matchup, opponent's road struggles."
+  }
+]
+```
+
+You can add as many picks as you like to this file. The miner will currently only serve the first one, but this can be easily extended to support more advanced logic.
+
+### Running the Custom Miner
+
+To run the custom miner, use the following command:
+
+```bash
+python3 my_miner.py
+```
+
+The script is configured to use the `default` wallet and hotkey.
+
+### Registration
+
+> [!IMPORTANT]
+> Before you can run the miner on the network, you must register your hotkey on the Bettensor subnet (netuid 30). This requires a small amount of TAO to cover the transaction fee.
+>
+> Use the following command to register your hotkey:
+>
+> ```bash
+> btcli subnet register --netuid 30 --wallet.name default --wallet.hotkey default --subtensor.network finney
+> ```
+
+---
