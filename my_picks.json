@@ -1,0 +1,53 @@
+[
+  {
+    "sport": "Horse Racing",
+    "event_details": {
+      "track": "Roscommon",
+      "time": "05:25",
+      "selection": "Neo Smart & Gabriella Hill(10)"
+    },
+    "bet_type": "Win",
+    "confidence": 0.624,
+    "reasoning": "High win probability, consistent performance, favorable odds."
+  },
+  {
+    "sport": "Tennis",
+    "event_details": {
+      "match": "M. Fucsovics vs Opponent"
+    },
+    "bet_type": "Set Betting",
+    "prediction": "M. Fucsovics 2-0",
+    "reasoning": "Strong form, superior surface stats, opponent struggles in similar conditions."
+  },
+  {
+    "sport": "Baseball",
+    "league": "MLB",
+    "event_details": {
+      "game": "Philadelphia Phillies vs Opponent"
+    },
+    "bet_type": "Spread",
+    "prediction": "Philadelphia Phillies -1.5",
+    "odds": 2.05,
+    "reasoning": "Solid recent performance, strong pitching matchup, opponent's road struggles."
+  },
+  {
+    "sport": "Tennis",
+    "event_details": {
+      "match": "L. Sonego vs Opponent"
+    },
+    "bet_type": "Moneyline",
+    "prediction": "L. Sonego",
+    "reasoning": "Consistent play, favorable head-to-head stats, opponent's recent poor form."
+  },
+  {
+    "sport": "Horse Racing",
+    "event_details": {
+      "track": "Windsor",
+      "time": "05:33",
+      "selection": "Topwarrior & Rossa Ryan"
+    },
+    "bet_type": "Win",
+    "confidence": 0.306,
+    "reasoning": "Solid jockey-trainer combo, high recent form index, favorable conditions."
+  }
+]
