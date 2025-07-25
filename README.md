@@ -2,23 +2,17 @@
 
 This repository also contains a suite of tools for extracting and analyzing sports betting predictions from the Bettensor network.
 
-**Goal:** Programmatically extract and aggregate miner predictions to identify consensus betting signals.
+**Goal:** Programmatically extract and aggregate miner predictions to identify consensus betting signals, and provide a robust system for tracking the performance of manual picks.
 
 **Current Status:**
+- **Performance Tracking System:** A new system has been implemented to track the performance of manual picks. This includes scripts to automatically update results from a Sports Data API and generate detailed performance reports.
 - **Core Validator is Functional:** The validator codebase has been debugged and is operational for network interaction.
 - **Local Database is Initialized:** The `validator.db` SQLite database is successfully initialized with the correct schema.
-- **Architecture Understood:** The correct data extraction pattern has been identified:
-    1. The validator queries all miners simultaneously using a `forward()` broadcast call.
-    2. Miners respond, and the validator stores these predictions in its local `validator.db`.
-    3. Analysis scripts must query this local database to retrieve prediction data.
-- **API Limitations:** The public Bettensor API is unreliable for *discovering* games with active predictions but works well for fetching game details via a *direct ID lookup*.
+- **Architecture Understood:** The correct data extraction pattern has been identified.
 
 **Next Steps:**
-The immediate focus is on fixing the `test_direct_miner_query.py` script to serve as a reliable tool for live network testing and data extraction. This involves resolving two key errors:
-1. A `RuntimeError` caused by the validator not being properly initialized before use.
-2. A `Database check error` from an incorrect column name in an SQL query.
+The immediate focus is on continuing to improve the reliability of the `results_updater.py` script and expanding the features of the performance reporting tools.
 
-Once fixed, this script will be the foundation for extracting and analyzing live prediction data.
 
 ---
 
@@ -211,6 +205,79 @@ The custom miner operates in a simple loop:
 1.  **Reads Picks:** The miner reads a list of predictions from the `my_picks.json` file.
 2.  **Listens for Requests:** It connects to the Bittensor network and listens for requests from validators.
 3.  **Serves Predictions:** When a validator queries the miner, it responds with the first prediction from the `my_picks.json` file.
+
+## Performance Tracking
+
+To provide a robust way to evaluate betting performance, this repository now includes a comprehensive performance tracking system. This system automates the process of recording picks, fetching results, and generating performance reports.
+
+### How It Works
+
+1.  **Structured Data:** All picks are stored in `my_picks.json` with detailed information, including the sport, teams, bet type, odds, stake, and the final result (`win`, `loss`, `pending`).
+2.  **Automated Results Updater:** The `results_updater.py` script uses a professional Sports Data API (**API-Sports**) to reliably fetch the final scores of completed games. It then automatically updates the status and profit/loss for each pick in `my_picks.json`.
+3.  **Performance Reporter:** The `performance_reporter.py` script reads the updated data and generates detailed reports for weekly, monthly, or all-time performance. These reports include key metrics like win/loss record, total amount staked, net profit/loss, and return on investment (ROI).
+
+This system provides an accurate and automated way to track and analyze betting performance over time.
+
+### `my_picks.json` File
+
+The `my_picks.json` file is where you store your predictions. It's a simple JSON array of objects, where each object represents a single pick. The structure is flexible to accommodate various types of bets.
+
+**Example:**
+
+```json
+[
+  {
+    "sport": "Baseball",
+    "league": "MLB",
+    "event_details": {
+      "game": "Philadelphia Phillies vs. Boston Red Sox",
+      "date": "2025-07-23"
+    },
+    "bet_type": "Spread",
+    "prediction": "Philadelphia Phillies -1.5",
+    "odds": 2.36,
+    "reasoning": "User provided pick.",
+    "stake": 5.00,
+    "status": "loss",
+    "profit_loss": -5.00
+  },
+  {
+    "sport": "Tennis",
+    "league": "ATP",
+    "event_details": {
+      "game": "F. Tiafoe vs Flavio Cobolli",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Moneyline",
+    "prediction": "F. Tiafoe",
+    "odds": null,
+    "reasoning": "User provided pick.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  }
+]
+```
+
+### Running the Tools
+
+You can run the performance tools using the following commands:
+
+-   **Update Results:**
+    ```bash
+    python3 results_updater.py
+    ```
+-   **Generate Reports:**
+    ```bash
+    # For all-time stats
+    python3 performance_reporter.py all
+
+    # For weekly stats
+    python3 performance_reporter.py weekly
+
+    # For monthly stats
+    python3 performance_reporter.py monthly
+    ```
 
 ### `my_picks.json` File
 
