@@ -269,14 +269,17 @@ You can run the performance tools using the following commands:
     ```
 -   **Generate Reports:**
     ```bash
-    # For all-time stats
-    python3 performance_reporter.py all
+    # For daily stats
+    python3 performance_reporter.py daily
 
     # For weekly stats
     python3 performance_reporter.py weekly
 
     # For monthly stats
     python3 performance_reporter.py monthly
+
+    # For all-time stats
+    python3 performance_reporter.py all
     ```
 
 ### `my_picks.json` File

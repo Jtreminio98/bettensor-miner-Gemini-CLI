@@ -1,182 +1,2192 @@
 [
   {
-    "sport": "Baseball",
-    "league": "MLB",
+    "sport": "Horse Racing",
+    "league": "Catterick",
     "event_details": {
-      "game": "Washington Nationals vs Opponent",
-      "date": "2025-07-23"
+      "game": "Catterick - 02:47 - Marbuzet & David Allan",
+      "date": "2025-07-25"
     },
-    "bet_type": "Spread",
-    "prediction": "Washington Nationals +1.5",
-    "odds": 1.62,
-    "reasoning": "User provided pick."
+    "bet_type": "Win",
+    "prediction": "Marbuzet & David Allan",
+    "odds": null,
+    "reasoning": "User provided pick with 39.1% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
   },
   {
-    "sport": "Baseball",
-    "league": "MLB",
+    "sport": "Horse Racing",
+    "league": "Catterick",
     "event_details": {
-      "game": "Miami Marlins vs Opponent",
-      "date": "2025-07-23"
+      "game": "Catterick - 02:47 - Cascade Hall & Paul Mulrennan",
+      "date": "2025-07-25"
     },
-    "bet_type": "Spread",
-    "prediction": "Miami Marlins +1.5",
-    "odds": 1.7,
-    "reasoning": "User provided pick."
+    "bet_type": "Win",
+    "prediction": "Cascade Hall & Paul Mulrennan",
+    "odds": null,
+    "reasoning": "User provided pick with 23.2% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
   },
   {
-    "sport": "Baseball",
+    "sport": "Horse Racing",
+    "league": "Catterick",
+    "event_details": {
+      "game": "Catterick - 02:47 - Zephlyn & Jason Hart",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Zephlyn & Jason Hart",
+    "odds": null,
+    "reasoning": "User provided pick with 16.6% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Catterick",
+    "event_details": {
+      "game": "Catterick - 04:47 - Dream Deal & David Allan",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Dream Deal & David Allan",
+    "odds": null,
+    "reasoning": "User provided pick with 25.5% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Catterick",
+    "event_details": {
+      "game": "Catterick - 04:47 - One Of Our Own & Kaiya Fraser",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "One Of Our Own & Kaiya Fraser",
+    "odds": null,
+    "reasoning": "User provided pick with 15.5% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Catterick",
+    "event_details": {
+      "game": "Catterick - 04:47 - Havana Rum & Oisin Orr",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Havana Rum & Oisin Orr",
+    "odds": null,
+    "reasoning": "User provided pick with 11.1% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Catterick",
+    "event_details": {
+      "game": "Catterick - 03:17 - Brazilian Belle & Connor Beasley",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Brazilian Belle & Connor Beasley",
+    "odds": null,
+    "reasoning": "User provided pick with 27.1% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Catterick",
+    "event_details": {
+      "game": "Catterick - 03:17 - Lunar Force & David Allan",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Lunar Force & David Allan",
+    "odds": null,
+    "reasoning": "User provided pick with 23.9% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Catterick",
+    "event_details": {
+      "game": "Catterick - 03:17 - Tees Aggregates & Harrison Shaw",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Tees Aggregates & Harrison Shaw",
+    "odds": null,
+    "reasoning": "User provided pick with 16.3% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Catterick",
+    "event_details": {
+      "game": "Catterick - 02:17 - Surprised & Callum Rodriguez",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Surprised & Callum Rodriguez",
+    "odds": null,
+    "reasoning": "User provided pick with 38.7% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Catterick",
+    "event_details": {
+      "game": "Catterick - 02:17 - Georgecandoit & Jack Garritty",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Georgecandoit & Jack Garritty",
+    "odds": null,
+    "reasoning": "User provided pick with 31.0% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Catterick",
+    "event_details": {
+      "game": "Catterick - 02:17 - Far Ahead & Oisin Orr",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Far Ahead & Oisin Orr",
+    "odds": null,
+    "reasoning": "User provided pick with 18.3% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Catterick",
+    "event_details": {
+      "game": "Catterick - 04:17 - Queen Roslyn & Ben Robinson",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Queen Roslyn & Ben Robinson",
+    "odds": null,
+    "reasoning": "User provided pick with 65.9% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Catterick",
+    "event_details": {
+      "game": "Catterick - 04:17 - Prince Hector & Tom Kiely-Marshall",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Prince Hector & Tom Kiely-Marshall",
+    "odds": null,
+    "reasoning": "User provided pick with 57.8% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Catterick",
+    "event_details": {
+      "game": "Catterick - 04:17 - Spring Chorus & Shane Gray",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Spring Chorus & Shane Gray",
+    "odds": null,
+    "reasoning": "User provided pick with 53.8% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Catterick",
+    "event_details": {
+      "game": "Catterick - 01:47 - Dawn Of Liberation & Tommie Jakes",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Dawn Of Liberation & Tommie Jakes",
+    "odds": null,
+    "reasoning": "User provided pick with 16.7% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Catterick",
+    "event_details": {
+      "game": "Catterick - 01:47 - King Sharja & Ethan Jones",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "King Sharja & Ethan Jones",
+    "odds": null,
+    "reasoning": "User provided pick with 14.8% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Catterick",
+    "event_details": {
+      "game": "Catterick - 01:47 - Miss Willows & Andrea Pinna",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Miss Willows & Andrea Pinna",
+    "odds": null,
+    "reasoning": "User provided pick with 11.8% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Catterick",
+    "event_details": {
+      "game": "Catterick - 03:47 - Canaria Queen & David Allan",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Canaria Queen & David Allan",
+    "odds": null,
+    "reasoning": "User provided pick with 22.9% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Catterick",
+    "event_details": {
+      "game": "Catterick - 03:47 - Without Flaw & Joanna Mason",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Without Flaw & Joanna Mason",
+    "odds": null,
+    "reasoning": "User provided pick with 15.1% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Catterick",
+    "event_details": {
+      "game": "Catterick - 03:47 - Azucena & Joe Fanning",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Azucena & Joe Fanning",
+    "odds": null,
+    "reasoning": "User provided pick with 12.3% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Windsor",
+    "event_details": {
+      "game": "Windsor - 06:33 - Havanagreattime & Finley Marsh",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Havanagreattime & Finley Marsh",
+    "odds": null,
+    "reasoning": "User provided pick with 28.8% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Windsor",
+    "event_details": {
+      "game": "Windsor - 06:33 - Trefor & Kieran Shoemark",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Trefor & Kieran Shoemark",
+    "odds": null,
+    "reasoning": "User provided pick with 27.2% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Windsor",
+    "event_details": {
+      "game": "Windsor - 06:33 - Regal Envoy & Oisin Murphy",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Regal Envoy & Oisin Murphy",
+    "odds": null,
+    "reasoning": "User provided pick with 10.2% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Windsor",
+    "event_details": {
+      "game": "Windsor - 05:33 - Topwarrior & Rossa Ryan",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Topwarrior & Rossa Ryan",
+    "odds": null,
+    "reasoning": "User provided pick with 30.6% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Windsor",
+    "event_details": {
+      "game": "Windsor - 05:33 - Lazzar & Finley Marsh",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Lazzar & Finley Marsh",
+    "odds": null,
+    "reasoning": "User provided pick with 28.6% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Windsor",
+    "event_details": {
+      "game": "Windsor - 05:33 - Gordon Norse & Oisin Murphy",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Gordon Norse & Oisin Murphy",
+    "odds": null,
+    "reasoning": "User provided pick with 11.9% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Windsor",
+    "event_details": {
+      "game": "Windsor - 07:35 - Beauld As Brass & Pat Cosgrave",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Beauld As Brass & Pat Cosgrave",
+    "odds": null,
+    "reasoning": "User provided pick with 70.3% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Windsor",
+    "event_details": {
+      "game": "Windsor - 07:35 - Golden Circet & Oisin Murphy",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Golden Circet & Oisin Murphy",
+    "odds": null,
+    "reasoning": "User provided pick with 53.0% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Windsor",
+    "event_details": {
+      "game": "Windsor - 07:35 - Sir Edward Lear & Ray Dawson",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Sir Edward Lear & Ray Dawson",
+    "odds": null,
+    "reasoning": "User provided pick with 34.8% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Windsor",
+    "event_details": {
+      "game": "Windsor - 05:00 - Honour Your Dreams & Tom Marquand",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Honour Your Dreams & Tom Marquand",
+    "odds": null,
+    "reasoning": "User provided pick with 26.0% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Windsor",
+    "event_details": {
+      "game": "Windsor - 05:00 - Notre Maison & Oisin Murphy",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Notre Maison & Oisin Murphy",
+    "odds": null,
+    "reasoning": "User provided pick with 22.4% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Windsor",
+    "event_details": {
+      "game": "Windsor - 07:03 - Tralee Girl & Oisin Murphy",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Tralee Girl & Oisin Murphy",
+    "odds": null,
+    "reasoning": "User provided pick with 44.2% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Windsor",
+    "event_details": {
+      "game": "Windsor - 07:03 - Mrembo & Trevor Whelan",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Mrembo & Trevor Whelan",
+    "odds": null,
+    "reasoning": "User provided pick with 29.0% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Windsor",
+    "event_details": {
+      "game": "Windsor - 07:03 - Maywedance & Rob Hornby",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Maywedance & Rob Hornby",
+    "odds": null,
+    "reasoning": "User provided pick with 7.7% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Windsor",
+    "event_details": {
+      "game": "Windsor - 08:10 - Manila Thriller & Tom Marquand",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Manila Thriller & Tom Marquand",
+    "odds": null,
+    "reasoning": "User provided pick with 28.6% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Windsor",
+    "event_details": {
+      "game": "Windsor - 08:10 - Man Of La Mancha & Rossa Ryan",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Man Of La Mancha & Rossa Ryan",
+    "odds": null,
+    "reasoning": "User provided pick with 28.3% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Windsor",
+    "event_details": {
+      "game": "Windsor - 08:10 - Crest Of Light & Daniel Muscutt",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Crest Of Light & Daniel Muscutt",
+    "odds": null,
+    "reasoning": "User provided pick with 13.9% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Windsor",
+    "event_details": {
+      "game": "Windsor - 06:03 - Fantasy World & Oisin Murphy",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Fantasy World & Oisin Murphy",
+    "odds": null,
+    "reasoning": "User provided pick with 36.1% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Windsor",
+    "event_details": {
+      "game": "Windsor - 06:03 - Quebella & Finley Marsh",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Quebella & Finley Marsh",
+    "odds": null,
+    "reasoning": "User provided pick with 18.9% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Windsor",
+    "event_details": {
+      "game": "Windsor - 06:03 - Brise Noir & Rossa Ryan",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Brise Noir & Rossa Ryan",
+    "odds": null,
+    "reasoning": "User provided pick with 15.8% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Southwell",
+    "event_details": {
+      "game": "Southwell - 02:00 - Camino Rocio & Sean Bowen",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Camino Rocio & Sean Bowen",
+    "odds": null,
+    "reasoning": "User provided pick with 66.4% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Southwell",
+    "event_details": {
+      "game": "Southwell - 02:00 - High Game Royal & Callum Pritchard",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "High Game Royal & Callum Pritchard",
+    "odds": null,
+    "reasoning": "User provided pick with 42.0% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Southwell",
+    "event_details": {
+      "game": "Southwell - 02:00 - How And Ever & Gavin Sheehan",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "How And Ever & Gavin Sheehan",
+    "odds": null,
+    "reasoning": "User provided pick with 36.5% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Southwell",
+    "event_details": {
+      "game": "Southwell - 05:15 - Jaytee & Brian Hughes",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Jaytee & Brian Hughes",
+    "odds": null,
+    "reasoning": "User provided pick with 62.6% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Southwell",
+    "event_details": {
+      "game": "Southwell - 05:15 - Hourvari & Sean Bowen",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Hourvari & Sean Bowen",
+    "odds": null,
+    "reasoning": "User provided pick with 44.4% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Southwell",
+    "event_details": {
+      "game": "Southwell - 05:15 - Coconut Twist & Mr Robbie David",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Coconut Twist & Mr Robbie David",
+    "odds": null,
+    "reasoning": "User provided pick with 40.8% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Southwell",
+    "event_details": {
+      "game": "Southwell - 04:40 - Little Dipper & Charlie Deutsch",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Little Dipper & Charlie Deutsch",
+    "odds": null,
+    "reasoning": "User provided pick with 65.3% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Southwell",
+    "event_details": {
+      "game": "Southwell - 04:40 - Lune De La Mer & Henry Brooke",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Lune De La Mer & Henry Brooke",
+    "odds": null,
+    "reasoning": "User provided pick with 37.2% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Southwell",
+    "event_details": {
+      "game": "Southwell - 04:40 - Strictly Tango & Sam Twiston-Davies",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Strictly Tango & Sam Twiston-Davies",
+    "odds": null,
+    "reasoning": "User provided pick with 17.8% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Southwell",
+    "event_details": {
+      "game": "Southwell - 04:05 - Big Boy Barney & Jonathan Burke",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Big Boy Barney & Jonathan Burke",
+    "odds": null,
+    "reasoning": "User provided pick with 62.3% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Southwell",
+    "event_details": {
+      "game": "Southwell - 04:05 - Wind Your Neck In & Jonathan England",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Wind Your Neck In & Jonathan England",
+    "odds": null,
+    "reasoning": "User provided pick with 40.1% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Southwell",
+    "event_details": {
+      "game": "Southwell - 04:05 - R S Ambush & Sean Bowen",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "R S Ambush & Sean Bowen",
+    "odds": null,
+    "reasoning": "User provided pick with 36.8% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Southwell",
+    "event_details": {
+      "game": "Southwell - 02:30 - Small Town Hero & Jack Tudor",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Small Town Hero & Jack Tudor",
+    "odds": null,
+    "reasoning": "User provided pick with 22.2% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Southwell",
+    "event_details": {
+      "game": "Southwell - 02:30 - Ballyvaughan Bay & Mr Toby McCain-Mitchell",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Ballyvaughan Bay & Mr Toby McCain-Mitchell",
+    "odds": null,
+    "reasoning": "User provided pick with 20.6% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Southwell",
+    "event_details": {
+      "game": "Southwell - 02:30 - Baby Chou & Jonathan England",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Baby Chou & Jonathan England",
+    "odds": null,
+    "reasoning": "User provided pick with 14.0% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Southwell",
+    "event_details": {
+      "game": "Southwell - 03:30 - Early Morning Dew & Sean Bowen",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Early Morning Dew & Sean Bowen",
+    "odds": null,
+    "reasoning": "User provided pick with 46.4% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Southwell",
+    "event_details": {
+      "game": "Southwell - 03:30 - Grand Scheme & Jonathan England",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Grand Scheme & Jonathan England",
+    "odds": null,
+    "reasoning": "User provided pick with 15.5% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Southwell",
+    "event_details": {
+      "game": "Southwell - 03:30 - Pottersjetamay & Jack Quinlan",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Pottersjetamay & Jack Quinlan",
+    "odds": null,
+    "reasoning": "User provided pick with 13.3% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Southwell",
+    "event_details": {
+      "game": "Southwell - 03:00 - Queensworthy & Harry Skelton",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Queensworthy & Harry Skelton",
+    "odds": null,
+    "reasoning": "User provided pick with 27.6% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Southwell",
+    "event_details": {
+      "game": "Southwell - 03:00 - Garde My Guinness & Gavin Sheehan",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Garde My Guinness & Gavin Sheehan",
+    "odds": null,
+    "reasoning": "User provided pick with 21.6% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Southwell",
+    "event_details": {
+      "game": "Southwell - 03:00 - Saturday Sarah & Sean Bowen",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Saturday Sarah & Sean Bowen",
+    "odds": null,
+    "reasoning": "User provided pick with 13.0% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Wolverhampton (AW)",
+    "event_details": {
+      "game": "Wolverhampton (AW) - 06:50 - Scarlet Moon & Hollie Doyle",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Scarlet Moon & Hollie Doyle",
+    "odds": null,
+    "reasoning": "User provided pick with 33.8% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Wolverhampton (AW)",
+    "event_details": {
+      "game": "Wolverhampton (AW) - 06:50 - King Kernow & Billy Loughnane",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "King Kernow & Billy Loughnane",
+    "odds": null,
+    "reasoning": "User provided pick with 20.4% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Wolverhampton (AW)",
+    "event_details": {
+      "game": "Wolverhampton (AW) - 06:50 - Ray Gun & Saffie Osborne",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Ray Gun & Saffie Osborne",
+    "odds": null,
+    "reasoning": "User provided pick with 7.9% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Wolverhampton (AW)",
+    "event_details": {
+      "game": "Wolverhampton (AW) - 06:20 - Pure Theory & Billy Loughnane",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Pure Theory & Billy Loughnane",
+    "odds": null,
+    "reasoning": "User provided pick with 25.5% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Wolverhampton (AW)",
+    "event_details": {
+      "game": "Wolverhampton (AW) - 06:20 - Chilli Queen & David Probert",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Chilli Queen & David Probert",
+    "odds": null,
+    "reasoning": "User provided pick with 25.3% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Wolverhampton (AW)",
+    "event_details": {
+      "game": "Wolverhampton (AW) - 05:50 - Cloudbuster & Billy Loughnane",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Cloudbuster & Billy Loughnane",
+    "odds": null,
+    "reasoning": "User provided pick with 45.0% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Wolverhampton (AW)",
+    "event_details": {
+      "game": "Wolverhampton (AW) - 05:50 - Flowerhead & David Egan",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Flowerhead & David Egan",
+    "odds": null,
+    "reasoning": "User provided pick with 17.2% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Wolverhampton (AW)",
+    "event_details": {
+      "game": "Wolverhampton (AW) - 05:50 - Flying Macs & Cieren Fallon",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Flying Macs & Cieren Fallon",
+    "odds": null,
+    "reasoning": "User provided pick with 14.4% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Wolverhampton (AW)",
+    "event_details": {
+      "game": "Wolverhampton (AW) - 07:20 - Serious Look & Robert Havlin",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Serious Look & Robert Havlin",
+    "odds": null,
+    "reasoning": "User provided pick with 33.9% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Wolverhampton (AW)",
+    "event_details": {
+      "game": "Wolverhampton (AW) - 07:20 - Guinness Lad & Millie Wonnacott",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Guinness Lad & Millie Wonnacott",
+    "odds": null,
+    "reasoning": "User provided pick with 11.8% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Wolverhampton (AW)",
+    "event_details": {
+      "game": "Wolverhampton (AW) - 07:20 - Spirit Of Bowland & P J McDonald",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Spirit Of Bowland & P J McDonald",
+    "odds": null,
+    "reasoning": "User provided pick with 8.4% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Wolverhampton (AW)",
+    "event_details": {
+      "game": "Wolverhampton (AW) - 09:00 - Hinitsa Bay & Cieren Fallon",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Hinitsa Bay & Cieren Fallon",
+    "odds": null,
+    "reasoning": "User provided pick with 58.3% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Wolverhampton (AW)",
+    "event_details": {
+      "game": "Wolverhampton (AW) - 09:00 - Capallcliste & Adam Farragher",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Capallcliste & Adam Farragher",
+    "odds": null,
+    "reasoning": "User provided pick with 56.8% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Wolverhampton (AW)",
+    "event_details": {
+      "game": "Wolverhampton (AW) - 09:00 - Haaf A Diamond & Alec Voikhansky",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Haaf A Diamond & Alec Voikhansky",
+    "odds": null,
+    "reasoning": "User provided pick with 20.4% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Wolverhampton (AW)",
+    "event_details": {
+      "game": "Wolverhampton (AW) - 08:30 - Outreach & George Bass",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Outreach & George Bass",
+    "odds": null,
+    "reasoning": "User provided pick with 53.6% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Wolverhampton (AW)",
+    "event_details": {
+      "game": "Wolverhampton (AW) - 08:30 - Dumfries & James Sullivan",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Dumfries & James Sullivan",
+    "odds": null,
+    "reasoning": "User provided pick with 19.1% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Wolverhampton (AW)",
+    "event_details": {
+      "game": "Wolverhampton (AW) - 08:30 - Al Shabab & Cieren Fallon",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Al Shabab & Cieren Fallon",
+    "odds": null,
+    "reasoning": "User provided pick with 15.9% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Roscommon",
+    "event_details": {
+      "game": "Roscommon - 03:55 - Harmani & Colin Keane",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Harmani & Colin Keane",
+    "odds": null,
+    "reasoning": "User provided pick with 33.3% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Roscommon",
+    "event_details": {
+      "game": "Roscommon - 03:55 - Salonglaenzende & W J Lee",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Salonglaenzende & W J Lee",
+    "odds": null,
+    "reasoning": "User provided pick with 16.3% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Roscommon",
+    "event_details": {
+      "game": "Roscommon - 03:55 - Green Soul & Dylan Browne McMonagle",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Green Soul & Dylan Browne McMonagle",
+    "odds": null,
+    "reasoning": "User provided pick with 8.7% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Roscommon",
+    "event_details": {
+      "game": "Roscommon - 04:25 - Celtic Druid & Alyse Clarke",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Celtic Druid & Alyse Clarke",
+    "odds": null,
+    "reasoning": "User provided pick with 64.7% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Roscommon",
+    "event_details": {
+      "game": "Roscommon - 04:25 - Jurality & Colin Keane",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Jurality & Colin Keane",
+    "odds": null,
+    "reasoning": "User provided pick with 63.2% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Roscommon",
+    "event_details": {
+      "game": "Roscommon - 04:25 - My Kurkum & Adam Caffrey",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "My Kurkum & Adam Caffrey",
+    "odds": null,
+    "reasoning": "User provided pick with 12.0% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Roscommon",
+    "event_details": {
+      "game": "Roscommon - 05:25 - Neo Smart & Gabriella Hill",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Neo Smart & Gabriella Hill",
+    "odds": null,
+    "reasoning": "User provided pick with 62.4% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Roscommon",
+    "event_details": {
+      "game": "Roscommon - 05:25 - Flying Bay & Shane Foley",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Flying Bay & Shane Foley",
+    "odds": null,
+    "reasoning": "User provided pick with 60.2% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Roscommon",
+    "event_details": {
+      "game": "Roscommon - 05:25 - Usuario Amigo & Gary Carroll",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Usuario Amigo & Gary Carroll",
+    "odds": null,
+    "reasoning": "User provided pick with 57.3% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Roscommon",
+    "event_details": {
+      "game": "Roscommon - 05:55 - Zaraahmando & Andrew Slattery",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Zaraahmando & Andrew Slattery",
+    "odds": null,
+    "reasoning": "User provided pick with 63.7% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Roscommon",
+    "event_details": {
+      "game": "Roscommon - 05:55 - Georg Zhukov & Jockey info not available",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Georg Zhukov & Jockey info not available",
+    "odds": null,
+    "reasoning": "User provided pick with 57.4% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Roscommon",
+    "event_details": {
+      "game": "Roscommon - 05:55 - Lovely & Gavin Ryan",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Lovely & Gavin Ryan",
+    "odds": null,
+    "reasoning": "User provided pick with 54.2% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Roscommon",
+    "event_details": {
+      "game": "Roscommon - 06:25 - Nautical Force & Ben Coen",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Nautical Force & Ben Coen",
+    "odds": null,
+    "reasoning": "User provided pick with 30.2% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Roscommon",
+    "event_details": {
+      "game": "Roscommon - 06:25 - Arouet & W J Lee",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Arouet & W J Lee",
+    "odds": null,
+    "reasoning": "User provided pick with 26.1% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Roscommon",
+    "event_details": {
+      "game": "Roscommon - 06:25 - Cap Saint Martin & Dylan Browne McMonagle",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Cap Saint Martin & Dylan Browne McMonagle",
+    "odds": null,
+    "reasoning": "User provided pick with 13.6% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Roscommon",
+    "event_details": {
+      "game": "Roscommon - 06:55 - Empress Alma & Jockey info not available",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Empress Alma & Jockey info not available",
+    "odds": null,
+    "reasoning": "User provided pick with 65.4% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Roscommon",
+    "event_details": {
+      "game": "Roscommon - 06:55 - Carried With Love & Julian Pietropaolo",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Carried With Love & Julian Pietropaolo",
+    "odds": null,
+    "reasoning": "User provided pick with 29.6% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Roscommon",
+    "event_details": {
+      "game": "Roscommon - 06:55 - Duke Of Leggagh & Terry Casey",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Duke Of Leggagh & Terry Casey",
+    "odds": null,
+    "reasoning": "User provided pick with 20.4% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Roscommon",
+    "event_details": {
+      "game": "Roscommon - 07:25 - Gaoth Chuil & Chris Hayes",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Gaoth Chuil & Chris Hayes",
+    "odds": null,
+    "reasoning": "User provided pick with 61.0% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Roscommon",
+    "event_details": {
+      "game": "Roscommon - 07:25 - Calais & Gary Carroll",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Calais & Gary Carroll",
+    "odds": null,
+    "reasoning": "User provided pick with 34.3% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Roscommon",
+    "event_details": {
+      "game": "Roscommon - 07:25 - Shaool & Ben Coen",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Shaool & Ben Coen",
+    "odds": null,
+    "reasoning": "User provided pick with 22.6% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Killarney",
+    "event_details": {
+      "game": "Killarney - 04:35 - Catchabird & Aidan Kelly",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Catchabird & Aidan Kelly",
+    "odds": null,
+    "reasoning": "User provided pick with 41.2% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Killarney",
+    "event_details": {
+      "game": "Killarney - 04:35 - Time In A Bottle & Mr J H Williamson",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Time In A Bottle & Mr J H Williamson",
+    "odds": null,
+    "reasoning": "User provided pick with 13.7% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Killarney",
+    "event_details": {
+      "game": "Killarney - 05:08 - Ocean Of Mercy & Danny Mullins",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Ocean Of Mercy & Danny Mullins",
+    "odds": null,
+    "reasoning": "User provided pick with 32.8% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Killarney",
+    "event_details": {
+      "game": "Killarney - 05:08 - Joli Travail & Mark Walsh",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Joli Travail & Mark Walsh",
+    "odds": null,
+    "reasoning": "User provided pick with 16.2% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Killarney",
+    "event_details": {
+      "game": "Killarney - 05:08 - Cabaret Prince & Conor McNamara",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Cabaret Prince & Conor McNamara",
+    "odds": null,
+    "reasoning": "User provided pick with 11.6% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Killarney",
+    "event_details": {
+      "game": "Killarney - 05:38 - Sober & Paul Townend",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Sober & Paul Townend",
+    "odds": null,
+    "reasoning": "User provided pick with 23.0% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Killarney",
+    "event_details": {
+      "game": "Killarney - 05:38 - St Cuthbert's Cave & Mr J M Halford",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "St Cuthbert's Cave & Mr J M Halford",
+    "odds": null,
+    "reasoning": "User provided pick with 8.8% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Killarney",
+    "event_details": {
+      "game": "Killarney - 05:38 - Arch Empire & Danny Gilligan",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Arch Empire & Danny Gilligan",
+    "odds": null,
+    "reasoning": "User provided pick with 5.6% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Killarney",
+    "event_details": {
+      "game": "Killarney - 06:08 - Jet Setting Jim & J J Slevin",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Jet Setting Jim & J J Slevin",
+    "odds": null,
+    "reasoning": "User provided pick with 34.7% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Killarney",
+    "event_details": {
+      "game": "Killarney - 06:08 - Brilliant Light & Paddy Hanlon",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Brilliant Light & Paddy Hanlon",
+    "odds": null,
+    "reasoning": "User provided pick with 32.9% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Killarney",
+    "event_details": {
+      "game": "Killarney - 06:08 - Black Bamboo & Tom Harney",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Black Bamboo & Tom Harney",
+    "odds": null,
+    "reasoning": "User provided pick with 11.2% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Killarney",
+    "event_details": {
+      "game": "Killarney - 06:38 - American Mike & Sam Ewing",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "American Mike & Sam Ewing",
+    "odds": null,
+    "reasoning": "User provided pick with 37.5% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Killarney",
+    "event_details": {
+      "game": "Killarney - 06:38 - Blood Destiny & Paul Townend",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Blood Destiny & Paul Townend",
+    "odds": null,
+    "reasoning": "User provided pick with 21.0% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Killarney",
+    "event_details": {
+      "game": "Killarney - 06:38 - Hercule Du Seuil & Mark Walsh",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Hercule Du Seuil & Mark Walsh",
+    "odds": null,
+    "reasoning": "User provided pick with 14.2% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Killarney",
+    "event_details": {
+      "game": "Killarney - 07:08 - Duty Bound & Alex Harvey",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Duty Bound & Alex Harvey",
+    "odds": null,
+    "reasoning": "User provided pick with 45.3% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Killarney",
+    "event_details": {
+      "game": "Killarney - 07:08 - A Mere Bagatelle & Paddy Hanlon",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "A Mere Bagatelle & Paddy Hanlon",
+    "odds": null,
+    "reasoning": "User provided pick with 38.6% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Killarney",
+    "event_details": {
+      "game": "Killarney - 07:08 - Younowhatimean & G B Noonan",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Younowhatimean & G B Noonan",
+    "odds": null,
+    "reasoning": "User provided pick with 34.5% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Killarney",
+    "event_details": {
+      "game": "Killarney - 07:43 - Hollow Games & Mr J H Williamson",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Hollow Games & Mr J H Williamson",
+    "odds": null,
+    "reasoning": "User provided pick with 36.4% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Killarney",
+    "event_details": {
+      "game": "Killarney - 07:43 - Pat Coyne & Mr J L Gleeson",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Pat Coyne & Mr J L Gleeson",
+    "odds": null,
+    "reasoning": "User provided pick with 31.6% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Killarney",
+    "event_details": {
+      "game": "Killarney - 07:43 - Lifetime Ambition & Mr R James",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Lifetime Ambition & Mr R James",
+    "odds": null,
+    "reasoning": "User provided pick with 23.1% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Killarney",
+    "event_details": {
+      "game": "Killarney - 08:18 - For My Mother & Miss O M Queally",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "For My Mother & Miss O M Queally",
+    "odds": null,
+    "reasoning": "User provided pick with 53.0% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Killarney",
+    "event_details": {
+      "game": "Killarney - 08:18 - Big Ned & Miss Georgie Benson",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Big Ned & Miss Georgie Benson",
+    "odds": null,
+    "reasoning": "User provided pick with 38.3% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Killarney",
+    "event_details": {
+      "game": "Killarney - 08:18 - Larkfield Lidaho & Miss P Elvin",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Larkfield Lidaho & Miss P Elvin",
+    "odds": null,
+    "reasoning": "User provided pick with 38.3% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Roscommon",
+    "event_details": {
+      "game": "Roscommon - 04:55 - Breath Of You & Jockey info not available",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Breath Of You & Jockey info not available",
+    "odds": null,
+    "reasoning": "User provided pick with 60.8% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Roscommon",
+    "event_details": {
+      "game": "Roscommon - 04:55 - Clever And Classy & Andrew Slattery",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Clever And Classy & Andrew Slattery",
+    "odds": null,
+    "reasoning": "User provided pick with 18.8% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Roscommon",
+    "event_details": {
+      "game": "Roscommon - 04:55 - Cherry Pink & Adam Caffrey",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Cherry Pink & Adam Caffrey",
+    "odds": null,
+    "reasoning": "User provided pick with 13.9% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Wolverhampton (AW)",
+    "event_details": {
+      "game": "Wolverhampton (AW) - 07:55 - Pessoa & Billy Loughnane",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Pessoa & Billy Loughnane",
+    "odds": null,
+    "reasoning": "User provided pick with 13.5% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Wolverhampton (AW)",
+    "event_details": {
+      "game": "Wolverhampton (AW) - 07:55 - Three Yorkshiremen & Hector Crouch",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Three Yorkshiremen & Hector Crouch",
+    "odds": null,
+    "reasoning": "User provided pick with 12.4% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Horse Racing",
+    "league": "Wolverhampton (AW)",
+    "event_details": {
+      "game": "Wolverhampton (AW) - 07:55 - Have You A Minute & Clifford Lee",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Win",
+    "prediction": "Have You A Minute & Clifford Lee",
+    "odds": null,
+    "reasoning": "User provided pick with 11.6% confidence.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Tennis",
+    "league": "ATP",
+    "event_details": {
+      "game": "B. Shelton",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Set Betting",
+    "prediction": "B. Shelton 2-0",
+    "odds": null,
+    "reasoning": "User provided pick.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "Tennis",
+    "league": "ATP",
+    "event_details": {
+      "game": "T. Fritz",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Set Betting",
+    "prediction": "T. Fritz 2-0",
+    "odds": null,
+    "reasoning": "User provided pick.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "MLB",
     "league": "MLB",
     "event_details": {
-      "game": "Atlanta Braves vs Opponent",
-      "date": "2025-07-23"
+      "game": "Milwaukee Brewers",
+      "date": "2025-07-25"
     },
     "bet_type": "Spread",
-    "prediction": "Atlanta Braves -1.5",
+    "prediction": "Milwaukee Brewers -1.5",
+    "odds": 1.88,
+    "reasoning": "User provided pick.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "MLB",
+    "league": "MLB",
+    "event_details": {
+      "game": "Pittsburgh Pirates",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Spread",
+    "prediction": "Pittsburgh Pirates 1.5",
+    "odds": 1.64,
+    "reasoning": "User provided pick.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "MLB",
+    "league": "MLB",
+    "event_details": {
+      "game": "Baltimore Orioles",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Spread",
+    "prediction": "Baltimore Orioles -1.5",
+    "odds": 2.02,
+    "reasoning": "User provided pick.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "MLB",
+    "league": "MLB",
+    "event_details": {
+      "game": "New York Yankees",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Spread",
+    "prediction": "New York Yankees -1.5",
     "odds": 2.16,
-    "reasoning": "User provided pick."
+    "reasoning": "User provided pick.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
   },
   {
-    "sport": "Baseball",
+    "sport": "MLB",
     "league": "MLB",
     "event_details": {
-      "game": "Pittsburgh Pirates vs Opponent",
-      "date": "2025-07-23"
+      "game": "Boston Red Sox",
+      "date": "2025-07-25"
     },
     "bet_type": "Spread",
-    "prediction": "Pittsburgh Pirates +1.5",
-    "odds": 1.73,
-    "reasoning": "User provided pick."
+    "prediction": "Boston Red Sox 1.5",
+    "odds": 1.65,
+    "reasoning": "User provided pick.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
   },
   {
-    "sport": "Baseball",
+    "sport": "MLB",
     "league": "MLB",
     "event_details": {
-      "game": "New York Mets vs Opponent",
-      "date": "2025-07-23"
+      "game": "Cincinnati Reds",
+      "date": "2025-07-25"
     },
     "bet_type": "Spread",
-    "prediction": "New York Mets -1.5",
-    "odds": 2.18,
-    "reasoning": "User provided pick."
+    "prediction": "Cincinnati Reds 1.5",
+    "odds": 1.59,
+    "reasoning": "User provided pick.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
   },
   {
-    "sport": "Baseball",
+    "sport": "MLB",
     "league": "MLB",
     "event_details": {
-      "game": "Chicago Cubs vs Opponent",
-      "date": "2025-07-23"
+      "game": "Detroit Tigers",
+      "date": "2025-07-25"
     },
     "bet_type": "Spread",
-    "prediction": "Chicago Cubs -1.5",
-    "odds": 2.38,
-    "reasoning": "User provided pick."
+    "prediction": "Detroit Tigers 1.5",
+    "odds": 1.55,
+    "reasoning": "User provided pick.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
   },
   {
-    "sport": "Baseball",
+    "sport": "MLB",
     "league": "MLB",
     "event_details": {
-      "game": "Colorado Rockies vs Opponent",
-      "date": "2025-07-23"
+      "game": "St. Louis Cardinals",
+      "date": "2025-07-25"
     },
     "bet_type": "Spread",
-    "prediction": "Colorado Rockies +1.5",
-    "odds": 2.05,
-    "reasoning": "User provided pick."
+    "prediction": "St. Louis Cardinals 1.5",
+    "odds": 1.62,
+    "reasoning": "User provided pick.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
   },
   {
-    "sport": "Baseball",
+    "sport": "MLB",
     "league": "MLB",
     "event_details": {
-      "game": "Arizona Diamondbacks vs Opponent",
-      "date": "2025-07-23"
+      "game": "Chicago White Sox",
+      "date": "2025-07-25"
     },
     "bet_type": "Spread",
-    "prediction": "Arizona Diamondbacks -1.5",
-    "odds": 2.68,
-    "reasoning": "User provided pick."
+    "prediction": "Chicago White Sox 1.5",
+    "odds": 1.87,
+    "reasoning": "User provided pick.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
   },
   {
-    "sport": "Baseball",
+    "sport": "MLB",
     "league": "MLB",
     "event_details": {
-      "game": "Seattle Mariners vs Opponent",
-      "date": "2025-07-23"
-    },
-    "bet_type": "Spread",
-    "prediction": "Seattle Mariners -1.5",
-    "odds": 2.55,
-    "reasoning": "User provided pick."
-  },
-  {
-    "sport": "Baseball",
-    "league": "MLB",
-    "event_details": {
-      "game": "Los Angeles Dodgers vs Opponent",
-      "date": "2025-07-23"
-    },
-    "bet_type": "Spread",
-    "prediction": "Los Angeles Dodgers -1.5",
-    "odds": 1.9,
-    "reasoning": "User provided pick."
-  },
-  {
-    "sport": "Baseball",
-    "league": "MLB",
-    "event_details": {
-      "game": "Cleveland Guardians vs Opponent",
-      "date": "2025-07-23"
-    },
-    "bet_type": "Spread",
-    "prediction": "Cleveland Guardians -1.5",
-    "odds": 2.64,
-    "reasoning": "User provided pick."
-  },
-  {
-    "sport": "Baseball",
-    "league": "MLB",
-    "event_details": {
-      "game": "Philadelphia Phillies vs Opponent",
-      "date": "2025-07-23"
-    },
-    "bet_type": "Spread",
-    "prediction": "Philadelphia Phillies -1.5",
-    "odds": 2.36,
-    "reasoning": "User provided pick."
-  },
-  {
-    "sport": "Baseball",
-    "league": "MLB",
-    "event_details": {
-      "game": "Toronto Blue Jays vs Opponent",
-      "date": "2025-07-23"
-    },
-    "bet_type": "Spread",
-    "prediction": "Toronto Blue Jays +1.5",
-    "odds": 1.7,
-    "reasoning": "User provided pick."
-  },
-  {
-    "sport": "Baseball",
-    "league": "MLB",
-    "event_details": {
-      "game": "Tampa Bay Rays vs Opponent",
-      "date": "2025-07-23"
-    },
-    "bet_type": "Spread",
-    "prediction": "Tampa Bay Rays -1.5",
-    "odds": 1.98,
-    "reasoning": "User provided pick."
-  },
-  {
-    "sport": "Baseball",
-    "league": "MLB",
-    "event_details": {
-      "game": "Texas Rangers vs Opponent",
-      "date": "2025-07-23"
+      "game": "Texas Rangers",
+      "date": "2025-07-25"
     },
     "bet_type": "Spread",
     "prediction": "Texas Rangers -1.5",
-    "odds": 2.5,
-    "reasoning": "User provided pick."
+    "odds": 2.22,
+    "reasoning": "User provided pick.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "MLB",
+    "league": "MLB",
+    "event_details": {
+      "game": "Kansas City Royals",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Spread",
+    "prediction": "Kansas City Royals 1.5",
+    "odds": 1.5,
+    "reasoning": "User provided pick.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "MLB",
+    "league": "MLB",
+    "event_details": {
+      "game": "Houston Astros",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Spread",
+    "prediction": "Houston Astros -1.5",
+    "odds": 2.38,
+    "reasoning": "User provided pick.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "MLB",
+    "league": "MLB",
+    "event_details": {
+      "game": "Minnesota Twins",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Spread",
+    "prediction": "Minnesota Twins -1.5",
+    "odds": 2.46,
+    "reasoning": "User provided pick.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "MLB",
+    "league": "MLB",
+    "event_details": {
+      "game": "Los Angeles Angels",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Spread",
+    "prediction": "Los Angeles Angels 1.5",
+    "odds": 1.65,
+    "reasoning": "User provided pick.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
+  },
+  {
+    "sport": "MLB",
+    "league": "MLB",
+    "event_details": {
+      "game": "San Francisco Giants",
+      "date": "2025-07-25"
+    },
+    "bet_type": "Spread",
+    "prediction": "San Francisco Giants -1.5",
+    "odds": 2.52,
+    "reasoning": "User provided pick.",
+    "stake": 5.0,
+    "status": "pending",
+    "profit_loss": 0.0
   }
 ]

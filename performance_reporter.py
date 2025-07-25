@@ -18,27 +18,26 @@ def generate_report(period):
     Generates a performance report for a given period.
 
     Args:
-        period (str): 'weekly', 'monthly', or 'all'.
+        period (str): 'daily', 'weekly', 'monthly', or 'all'.
     """
     picks = get_picks()
     if not picks:
         print("No picks found.")
         return
 
-    today = datetime.now()
+    today = datetime.now().date()
     
-    if period == 'weekly':
+    if period == 'daily':
+        start_of_period = today
+        period_name = f"Today ({today.strftime('%Y-%m-%d')})"
+    elif period == 'weekly':
         start_of_period = today - timedelta(days=today.weekday())
-        end_of_period = start_of_period + timedelta(days=6)
-        period_name = f"This Week ({start_of_period.strftime('%Y-%m-%d')} to {end_of_period.strftime('%Y-%m-%d')})"
+        period_name = f"This Week ({start_of_period.strftime('%Y-%m-%d')} to {today.strftime('%Y-%m-%d')})"
     elif period == 'monthly':
         start_of_period = today.replace(day=1)
-        next_month = start_of_period.replace(day=28) + timedelta(days=4)
-        end_of_period = next_month - timedelta(days=next_month.day)
-        period_name = f"This Month ({start_of_period.strftime('%Y-%m-%d')} to {end_of_period.strftime('%Y-%m-%d')})"
+        period_name = f"This Month ({start_of_period.strftime('%Y-%m-%d')} to {today.strftime('%Y-%m-%d')})"
     elif period == 'all':
-        start_of_period = datetime.min
-        end_of_period = datetime.max
+        start_of_period = datetime.min.date()
         period_name = "All Time"
     else:
         print(f"Invalid period: {period}")
@@ -55,9 +54,9 @@ def generate_report(period):
         if not pick_date_str:
             continue
 
-        pick_date = datetime.strptime(pick_date_str, '%Y-%m-%d')
+        pick_date = datetime.strptime(pick_date_str, '%Y-%m-%d').date()
 
-        if not (start_of_period <= pick_date <= end_of_period):
+        if pick_date < start_of_period:
             continue
         
         if pick.get('status') in ['win', 'loss']:
@@ -83,7 +82,7 @@ def generate_report(period):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Generate a performance report for your picks.')
-    parser.add_argument('period', type=str, nargs='?', default='all', choices=['weekly', 'monthly', 'all'],
-                        help="The reporting period: 'weekly', 'monthly', or 'all' (default).")
+    parser.add_argument('period', type=str, nargs='?', default='all', choices=['daily', 'weekly', 'monthly', 'all'],
+                        help="The reporting period: 'daily', 'weekly', 'monthly', or 'all' (default).")
     args = parser.parse_args()
     generate_report(args.period)

@@ -4,6 +4,7 @@ import json
 import time
 import os
 import argparse
+import random
 
 class MyMiner:
     def __init__(self):
@@ -52,9 +53,9 @@ class MyMiner:
 
     def forward_fn(self, synapse: bt.Synapse) -> bt.Synapse:
         # This function is called when a validator queries the miner.
-        # For now, we'll just return the first pick.
+        # We'll return a random pick from the list.
         if self.picks:
-            pick = self.picks[0]
+            pick = random.choice(self.picks)
             synapse.prediction = pick
             bt.logging.info(f"📬 Responding with pick: {pick}")
         else:

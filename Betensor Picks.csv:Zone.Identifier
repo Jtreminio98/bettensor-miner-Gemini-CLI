@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=http://3.129.99.25:8080/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoyMDQ1NDA4NTY3LCJleHAiOjE3NTMyNDQ2ODR9.Y59PDQHJ9eYPSbdTQkwzmgPcD0w7YHmcmMt4QEK6gk4
+HostUrl=http://3.129.99.25:8080/download_csv
